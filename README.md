@@ -1,0 +1,1 @@
+# this is the note for some useful git commands

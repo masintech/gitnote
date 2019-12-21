@@ -1,0 +1,11 @@
+*** using ssh to authenticate github repository 
+mkdir .ssh/
+cd .ssh
+ssh-keygen -t rsa -c "emailaddr@gmail.com"
+// type las -al
+// you will se id_ras, id_rsa.pub
+// open the id_ras.pub and copy all the content inside
+// go to github to add the content copied before to the SSH keys
+
+//verify
+ssh -T git@github.com
