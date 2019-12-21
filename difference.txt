@@ -1,0 +1,25 @@
+//go back one step before, nothing change
+git reset --soft HEAD~
+//go back one step before, unstage all tracked files
+git reset HEAD~
+
+// ***CAUTION***
+//go back one step before, undo all changes
+git reset --hrad HEAD~
+// remove the untracked file
+git clean -df
+
+// to see all the actions we made
+git reflog
+
+// get the commit status temporarily using cherry-pick
+git cherry-pick {commit id}
+
+// life saving command
+git reflog 
+// then see the history of ids that you wanna go back
+// then switch to that status by 
+git checkout {reflog's history id}
+
+//revert redo the commit undo before
+git revert {id}
