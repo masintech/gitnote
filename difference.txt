@@ -23,6 +23,3 @@ git checkout {reflog's history id}
 
 //revert redo the commit undo before
 git revert {id}
-
-//while merge local with remote repository
-git pull --allow-unrelated-histories
