@@ -3,7 +3,7 @@ git help log
 
 // set alias
 git log --oneline --graph --decorate --all
-git config --global alias.hist "log --onleine --graph --decorate --all"
+git config --global alias.hist "log --oneline --graph --decorate --all"
 // this command will only show the hist of the file "file.format"
 git hist -- file.format
 

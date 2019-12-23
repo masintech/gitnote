@@ -5,7 +5,7 @@ git reset HEAD~
 
 // ***CAUTION***
 //go back one step before, undo all changes
-git reset --hrad HEAD~
+git reset --hard HEAD~
 // remove the untracked file
 git clean -df
 
