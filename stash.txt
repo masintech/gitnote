@@ -1,5 +1,6 @@
-# Stash saves a status og git
+# Stash saves a status of git
 git stash save "comment" 
+git stash 
 # after this command, git diff, git status all will be empty
 
 # this will list all the stahs
@@ -15,3 +16,6 @@ git stash drop stash@{12}
 
 # clear all stashes
 git stash clear
+
+
+
