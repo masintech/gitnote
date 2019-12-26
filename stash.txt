@@ -1,0 +1,12 @@
+# Stash saves a status og git
+git stash 
+# after this command, git diff, git status all will be empty
+
+# this will list all the stahs
+git stash list 
+# restore the saved status
+git stash apply stash@{0}
+
+
+
+
