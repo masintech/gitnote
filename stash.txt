@@ -1,5 +1,9 @@
 # Stash saves a status of git
 git stash save "comment" 
+<<<<<<< HEAD
+=======
+git stash 
+>>>>>>> master
 # after this command, git diff, git status all will be empty
 
 # this will list all the stahs
