@@ -23,3 +23,14 @@ git checkout {reflog's history id}
 
 //revert redo the commit undo before
 git revert {id}
+
+//when you screw up, firstly reset
+git reset HEAD~
+// then rebase
+git rebase --continue
+// to revert a rebase
+git reflog --all
+//or
+git rebase --abort
+// go back to 4 commits before
+git rebase -i HEAD~4
